@@ -3,12 +3,13 @@ package com.neumont.csc150.PongModel;
 public class Ball {
 	private int spawnSide;
 	private boolean isTouching;
-	private int speed;
 	private int X;
 	private int Y;
+	private int xTraverse;
+	private int yTraverse;
 	
 	public int getSpawnSide() {
-		return spawnSide;
+		return this.spawnSide;
 	}
 	
 	public void setSpawnSide(int spawnSide) {
@@ -16,35 +17,43 @@ public class Ball {
 	}
 	
 	public boolean isTouching() {
-		return isTouching;
+		return this.isTouching;
 	}
 	
 	public void setTouching(boolean isTouching) {
 		this.isTouching = isTouching;
 	}
 	
-	public int getSpeed() {
-		return speed;
-	}
-	
-	public void setSpeed(int speed) {
-		this.speed = speed;
-	}
-	
 	public int getX() {
-		return X;
+		return this.X;
 	}
 	
 	public void setX(int x) {
-		X = x;
+		this.X = x;
 	}
 	
 	public int getY() {
-		return Y;
+		return this.Y;
 	}
 	
 	public void setY(int y) {
-		Y = y;
+		this.Y = y;
+	}
+	
+	public int getXTraverse() {
+		return this.xTraverse;
+	}
+	
+	public void setXTraverse(int xTraverse) {
+		this.xTraverse = xTraverse;
+	}
+	
+	public int getYTraverse() {
+		return this.yTraverse;
+	}
+	
+	public void setYTraverse(int yTraverse) {
+		this.yTraverse = yTraverse;
 	}
 
 }
