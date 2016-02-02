@@ -1,16 +1,12 @@
 package com.neumont.csc150.PongModel;
 
 public class Paddle {
-	private int whichPlayer;
+	private static final int topEdgeMod = -5;
+	private static final int topMidMod  = -3;
+	private static final int CenterMod  = 0;
+	private static final int botMidMod  = 3;
+	private static final int botEdgeMod = 5;
 	private int Y;
-
-	public int getWhichPlayer() {
-		return whichPlayer;
-	}
-
-	public void setWhichPlayer(int whichPlayer) {
-		this.whichPlayer = whichPlayer;
-	}
 	
 	public int getY(){
 		return Y;
@@ -18,6 +14,26 @@ public class Paddle {
 	
 	public void setY(int Y){
 		this.Y = Y;
+	}
+	
+	public getTopEdgeMod() {
+		return topEdgeMod;
+	}
+	
+	public getTopMidMod() {
+		return topMidMod;
+	}
+	
+	public getCenterMod() {
+		return center;
+	}
+	
+	public getBotMidMod() {
+		return botMidMod;
+	}
+	
+	public getBotEdgeMod() {
+		return botEdgeMod;
 	}
 
 }
