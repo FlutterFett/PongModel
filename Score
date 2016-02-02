@@ -2,9 +2,28 @@ package com.neumont.csc150.PongModel;
 
 public class Score {
 	private int score;
+	private int playerSide;
 	
 	public void displayScore(){
 		
+	}
+	
+	public int getScore() {
+		return score;
+	}
+
+	public void setScore(int score) {
+		this.score = score;
+	}
+
+	
+	public int getPlayerSide() {
+		return playerSide;
+	}
+
+	
+	public void setPlayerSide(int playerSide) {
+		this.playerSide = playerSide;
 	}
 
 }
