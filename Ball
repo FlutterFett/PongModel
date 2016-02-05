@@ -8,6 +8,11 @@ public class Ball {
 	private int xTraverse;
 	private int yTraverse;
 	
+	public Ball(){
+		this.setTouching(false);
+		this.setSpawnSide(0);
+	}
+	
 	public int getSpawnSide() {
 		return this.spawnSide;
 	}
