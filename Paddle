@@ -6,7 +6,12 @@ public class Paddle {
 	private static final int CenterMod  = 0;
 	private static final int botMidMod  = 3;
 	private static final int botEdgeMod = 5;
+	private int whichPlayer;
 	private int Y;
+	
+	public Paddle(int player){
+		this.setWhichPlayer(player);
+	}
 	
 	public int getY(){
 		return Y;
@@ -34,6 +39,14 @@ public class Paddle {
 	
 	public getBotEdgeMod() {
 		return botEdgeMod;
+	}
+	
+	public int getWhichPlayer(){
+		return this.whichPlayer;
+	}
+	
+	public void setWhichPlayer(int player){
+		this.whichPlayer = player;
 	}
 
 }
