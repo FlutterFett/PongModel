@@ -4,6 +4,11 @@ public class Score {
 	private int score;
 	private int playerSide;
 	
+	public Score(){
+		this.setScore(0);
+		
+	}
+	
 	public void displayScore(){
 		
 	}
