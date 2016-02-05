@@ -21,23 +21,23 @@ public class Paddle {
 		this.Y = Y;
 	}
 	
-	public getTopEdgeMod() {
+	public int getTopEdgeMod() {
 		return topEdgeMod;
 	}
 	
-	public getTopMidMod() {
+	public int getTopMidMod() {
 		return topMidMod;
 	}
 	
-	public getCenterMod() {
-		return center;
+	public int getCenterMod() {
+		return CenterMod;
 	}
 	
-	public getBotMidMod() {
+	public int getBotMidMod() {
 		return botMidMod;
 	}
 	
-	public getBotEdgeMod() {
+	public int getBotEdgeMod() {
 		return botEdgeMod;
 	}
 	
