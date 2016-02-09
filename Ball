@@ -61,4 +61,15 @@ public class Ball {
 		this.yTraverse = yTraverse;
 	}
 
+	
+	public int getYCoordinate() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
+	public int getXCoordinate() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }
