@@ -8,45 +8,56 @@ public class Paddle {
 	private static final int botEdgeMod = 5;
 	private int whichPlayer;
 	private int Y;
-	
+
 	public Paddle(int player){
 		this.setWhichPlayer(player);
 	}
-	
+
 	public int getY(){
 		return Y;
 	}
-	
+
 	public void setY(int Y){
 		this.Y = Y;
 	}
-	
+
 	public int getTopEdgeMod() {
 		return topEdgeMod;
 	}
-	
+
 	public int getTopMidMod() {
 		return topMidMod;
 	}
-	
+
 	public int getCenterMod() {
 		return CenterMod;
 	}
-	
+
 	public int getBotMidMod() {
 		return botMidMod;
 	}
-	
+
 	public int getBotEdgeMod() {
 		return botEdgeMod;
 	}
-	
+
 	public int getWhichPlayer(){
 		return this.whichPlayer;
 	}
-	
+
 	public void setWhichPlayer(int player){
 		this.whichPlayer = player;
+	}
+
+
+	public int getTopCoordinate() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public int getBottomCoordinate() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 }
